@@ -1,7 +1,7 @@
 ## 介绍
 
 - 基于tensorrt官方文档，基于yolov5_v7.0结合自身训练模型对yolov5进行int8量化；
-- 关于tensorrt int8量化的详细文档请参考本人[CSDN]()和[知乎相关文章]();
+- 关于tensorrt int8量化的详细文档请参考本人[CSDN](https://blog.csdn.net/Suan2014/article/details/132168130)和[知乎相关文章](https://zhuanlan.zhihu.com/p/648877516);
 
 ## 准备工作
 
