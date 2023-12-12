@@ -157,5 +157,6 @@ if __name__ == '__main__':
         verbose=False,
         opset_version=13,
         do_constant_folding=False,
+        input_names=input_names,
         output_names=output_names,
         dynamic_axes=dynamic)
