@@ -147,6 +147,7 @@ if __name__ == '__main__':
     save_path = '/'.join(pt_file.split('/')[:-1])
     onnx_file = os.path.join(save_path, 'best_ptq.onnx')
     dynamic = dict()
+    dynamic['images'] = {0: 'batch'}
     dynamic['num_dets'] = {0: 'batch'}
     dynamic['det_boxes'] = {0: 'batch'}
     torch.onnx.export(
